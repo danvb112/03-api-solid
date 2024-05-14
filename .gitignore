@@ -11,3 +11,6 @@ db/test.db
 
 # Build
 build
+
+#test
+coverage
