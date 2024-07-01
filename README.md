@@ -4,8 +4,8 @@
 
 ## FRs (functional requirements)
 
-- [] It should be possible to register.
-- [] It should be possible to authenticate.
+- [X] It should be possible to register.
+- [X] It should be possible to authenticate.
 - [] It should be possible to retrieve the profile of a logged-in user.
 - [] It should be possible to obtain the number of check-ins performed by the logged-in user.
 - [] It should be possible for the user to retrieve their check-in history.
@@ -17,7 +17,7 @@
 
 ## BRs (Business rules)
 
-- [] The user must not be able to register with a duplicate email.
+- [X] The user must not be able to register with a duplicate email.
 - [] The user cannot make two check-ins on the same day.
 - [] The user cannot check in if not near the gym.
 - [] The check-in can only be validated up to 20 minutes after it is created.
@@ -26,7 +26,7 @@
 
 ## NFRs (non-functional requirements)
 
-- [] The user's password needs to be encrypted.
-- [] The application data needs to be persisted in a PostgreSQL database.
+- [X] The user's password needs to be encrypted.
+- [X] The application data needs to be persisted in a PostgreSQL database.
 - [] All data lists need to be paginated with 20 items per page.
 - [] The user should be identified by a JWT, JSON Web Token.
